@@ -1,7 +1,13 @@
-header{
+ body{
+    background: linear-gradient(-45deg, #04171d, #191650, #0b7aad, #689fd6);
+    animation: gradient 8s ease infinite;
+    height: 100vh;
+ }
+ 
+ header{
     font-size:1em;
     font-weight: bold;
-    color: #4c0b77;
+    color: #00eeff;
     margin-bottom: 50px;
     
 }
@@ -45,7 +51,7 @@ header{
 }
 .wrapper .field .btn-2{
     position:absolute;
-    top:70%;
+    top:120%;
     right: 15px;
     transform: translate(-50%);
     font-size: 16px;
@@ -65,13 +71,12 @@ header{
     position:absolute;
     height: 100%;
     width: 50%;
-    color:#fff;
-    background-color: #c669eb;
-    line-height: 60px;
+    color:rgb(41, 22, 218);
+    background-color: #23dff8;
+    text-align: center;
     font-size: 27px;
     font-weight: 500;
     user-select: none;
-    border-radius:"5px";
     cursor: pointer;
     box-shadow: 5px 5px 30px rgba(0, 0 , 0, 0.2);
     transition: 0.4 cubic-bezier(0.68, -0.55, 0.265, 1.55);
